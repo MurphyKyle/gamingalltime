@@ -1,4 +1,53 @@
-body{
-    background: #BBBBBB;
+body {
+    background: #4B96B2;
     font-family: 'Work Sans', sans-serif;
+}
+
+.splash {
+    display: inline-flex;
+}
+
+#logo {
+    width: 150px;
+    height: 75px;
+}
+
+
+/*Site Navigation*/
+nav.sitenavigation {
+    font-size: 15px;
+    background-color: #FFD5AA;
+    text-align: left;
+    overflow: auto;
+}
+
+nav.sitenavigation li {
+    /*   padding: 0.3em 0;*/
+    display: inline-block;
+}
+
+nav.sitenavigation li a {
+    padding: 0.2em 0.6em;
+    display: inline-block;
+}
+
+nav.sitenavigation a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav.sitenavigation a:visited {
+    color: #000000;
+}
+
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+    color: #ff0000;
+    background-color: snow;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   background-color: #FFD5AA;
+   text-align: center;
 }

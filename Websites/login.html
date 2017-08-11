@@ -2,7 +2,7 @@
 <HTML>
 
 <HEAD>
-    <Title>Homepage</Title>
+    <Title>Login</Title>
     <link rel="stylesheet" href="css/main.css" />
     <script src="scripts/homepageScript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> </HEAD>
@@ -20,13 +20,21 @@
         </ul>
     </nav>
     <br />
+    <form action="profile.html" method="post"> Username:
+        <br>
+        <input id="username" type="text" name="username">
+        <br> Password:
+        <br>
+        <input id="password" type="password" name="password">
+        <br>
+        <br>
+        <input type="submit" onclick="login()" value="Login"> </form>
+    <br />
     <br />
     <br />
     <br />
 </BODY>
-    
 <footer>
     <p>[placeholder]</p>
 </footer>
-
 </HTML>
